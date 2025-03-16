@@ -6,6 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		186461C32D80967800C8A55A /* IntuneMAMSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186461C12D80967800C8A55A /* IntuneMAMSwift.xcframework */; };
+		186461C42D80967800C8A55A /* IntuneMAMSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 186461C12D80967800C8A55A /* IntuneMAMSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		186461C52D80967800C8A55A /* IntuneMAMSwiftStub.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186461C22D80967800C8A55A /* IntuneMAMSwiftStub.xcframework */; };
+		186461C62D80967800C8A55A /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 186461C22D80967800C8A55A /* IntuneMAMSwiftStub.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		186461C92D8096A100C8A55A /* MSAL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186461C82D8096A100C8A55A /* MSAL.xcframework */; };
+		186461CA2D8096A100C8A55A /* MSAL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 186461C82D8096A100C8A55A /* MSAL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18DDDA822D74CAF800B331F2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DDDA812D74CAF800B331F2 /* AudioToolbox.framework */; };
+		18DDDA842D74CB0000B331F2 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DDDA832D74CB0000B331F2 /* CoreServices.framework */; };
+		18DDDA862D74CB0900B331F2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DDDA852D74CB0900B331F2 /* ImageIO.framework */; };
+		18DDDA892D74CB2B00B331F2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DDDA852D74CB0900B331F2 /* ImageIO.framework */; };
+		18DDDA8B2D74CB3600B331F2 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DDDA8A2D74CB3600B331F2 /* LocalAuthentication.framework */; };
+		18DDDA8C2D74CB4200B331F2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DDDA812D74CAF800B331F2 /* AudioToolbox.framework */; };
+		18DDDA8E2D74CB4A00B331F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DDDA8D2D74CB4A00B331F2 /* QuartzCore.framework */; };
+		18DDDA902D74CB5300B331F2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DDDA8F2D74CB5300B331F2 /* WebKit.framework */; };
+		18DDDA922D74CB5C00B331F2 /* MetricKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DDDA912D74CB5C00B331F2 /* MetricKit.framework */; };
+		18DDDA942D74CB6600B331F2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DDDA932D74CB6600B331F2 /* MessageUI.framework */; };
+		18DDDA962D74CB6C00B331F2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DDDA952D74CB6C00B331F2 /* Security.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		18DDDA5A2D74C87A00B331F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,15 +43,58 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		186461C72D80967800C8A55A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				186461CA2D8096A100C8A55A /* MSAL.xcframework in Embed Frameworks */,
+				186461C62D80967800C8A55A /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */,
+				186461C42D80967800C8A55A /* IntuneMAMSwift.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		186461C12D80967800C8A55A /* IntuneMAMSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IntuneMAMSwift.xcframework; path = "../../../../../../Downloads/IntuneSDK/Updated/ms-intune-app-sdk-ios/IntuneMAMSwift.xcframework"; sourceTree = "<group>"; };
+		186461C22D80967800C8A55A /* IntuneMAMSwiftStub.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IntuneMAMSwiftStub.xcframework; path = "../../../../../../Downloads/IntuneSDK/Updated/ms-intune-app-sdk-ios/IntuneMAMSwiftStub.xcframework"; sourceTree = "<group>"; };
+		186461C82D8096A100C8A55A /* MSAL.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:UBF8T346G9:Microsoft Corporation"; lastKnownFileType = wrapper.xcframework; name = MSAL.xcframework; path = ../../../../../../Downloads/MSAL.xcframework; sourceTree = "<group>"; };
 		18DDDA492D74C87500B331F2 /* testapp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testapp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DDDA592D74C87A00B331F2 /* testapp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testapp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DDDA632D74C87A00B331F2 /* testapp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testapp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DDDA812D74CAF800B331F2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18DDDA832D74CB0000B331F2 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		18DDDA852D74CB0900B331F2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		18DDDA872D74CB1700B331F2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		18DDDA882D74CB2000B331F2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		18DDDA8A2D74CB3600B331F2 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		18DDDA8D2D74CB4A00B331F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18DDDA8F2D74CB5300B331F2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		18DDDA912D74CB5C00B331F2 /* MetricKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetricKit.framework; path = System/Library/Frameworks/MetricKit.framework; sourceTree = SDKROOT; };
+		18DDDA932D74CB6600B331F2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		18DDDA952D74CB6C00B331F2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		18DDDAD22D75F22B00B331F2 /* Exceptions for "testapp1" folder in "testapp1" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 18DDDA482D74C87500B331F2 /* testapp1 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		18DDDA4B2D74C87500B331F2 /* testapp1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				18DDDAD22D75F22B00B331F2 /* Exceptions for "testapp1" folder in "testapp1" target */,
+			);
 			path = testapp1;
 			sourceTree = "<group>";
 		};
@@ -52,6 +115,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186461C32D80967800C8A55A /* IntuneMAMSwift.xcframework in Frameworks */,
+				18DDDA8E2D74CB4A00B331F2 /* QuartzCore.framework in Frameworks */,
+				18DDDA892D74CB2B00B331F2 /* ImageIO.framework in Frameworks */,
+				18DDDA962D74CB6C00B331F2 /* Security.framework in Frameworks */,
+				18DDDA862D74CB0900B331F2 /* ImageIO.framework in Frameworks */,
+				18DDDA8B2D74CB3600B331F2 /* LocalAuthentication.framework in Frameworks */,
+				18DDDA8C2D74CB4200B331F2 /* AudioToolbox.framework in Frameworks */,
+				186461C52D80967800C8A55A /* IntuneMAMSwiftStub.xcframework in Frameworks */,
+				186461C92D8096A100C8A55A /* MSAL.xcframework in Frameworks */,
+				18DDDA922D74CB5C00B331F2 /* MetricKit.framework in Frameworks */,
+				18DDDA942D74CB6600B331F2 /* MessageUI.framework in Frameworks */,
+				18DDDA842D74CB0000B331F2 /* CoreServices.framework in Frameworks */,
+				18DDDA822D74CAF800B331F2 /* AudioToolbox.framework in Frameworks */,
+				18DDDA902D74CB5300B331F2 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +155,7 @@
 				18DDDA4B2D74C87500B331F2 /* testapp1 */,
 				18DDDA5C2D74C87A00B331F2 /* testapp1Tests */,
 				18DDDA662D74C87A00B331F2 /* testapp1UITests */,
+				18DDDA762D74C90300B331F2 /* Frameworks */,
 				18DDDA4A2D74C87500B331F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +170,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		18DDDA762D74C90300B331F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				186461C82D8096A100C8A55A /* MSAL.xcframework */,
+				186461C12D80967800C8A55A /* IntuneMAMSwift.xcframework */,
+				186461C22D80967800C8A55A /* IntuneMAMSwiftStub.xcframework */,
+				18DDDA952D74CB6C00B331F2 /* Security.framework */,
+				18DDDA932D74CB6600B331F2 /* MessageUI.framework */,
+				18DDDA912D74CB5C00B331F2 /* MetricKit.framework */,
+				18DDDA8F2D74CB5300B331F2 /* WebKit.framework */,
+				18DDDA8D2D74CB4A00B331F2 /* QuartzCore.framework */,
+				18DDDA8A2D74CB3600B331F2 /* LocalAuthentication.framework */,
+				18DDDA882D74CB2000B331F2 /* libsqlite3.tbd */,
+				18DDDA872D74CB1700B331F2 /* libc++.tbd */,
+				18DDDA852D74CB0900B331F2 /* ImageIO.framework */,
+				18DDDA832D74CB0000B331F2 /* CoreServices.framework */,
+				18DDDA812D74CAF800B331F2 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,6 +201,7 @@
 				18DDDA452D74C87500B331F2 /* Sources */,
 				18DDDA462D74C87500B331F2 /* Frameworks */,
 				18DDDA472D74C87500B331F2 /* Resources */,
+				186461C72D80967800C8A55A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,7 +286,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18DDDA442D74C87500B331F2 /* Build configuration list for PBXProject "testapp1" */;
+			buildConfigurationList = 18DDDA442D74C87500B331F2 /* Build configuration list for PBXProject "loginandEnrollSwiftUi" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -303,7 +403,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -321,6 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -366,7 +469,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -378,6 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -393,15 +499,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = testapp1/testapp1.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"testapp1/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = testapp1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight test";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -410,6 +518,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.redmond.testapp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -421,15 +530,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = testapp1/testapp1.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"testapp1/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = testapp1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight test";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,6 +549,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.redmond.testapp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -515,7 +627,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18DDDA442D74C87500B331F2 /* Build configuration list for PBXProject "testapp1" */ = {
+		18DDDA442D74C87500B331F2 /* Build configuration list for PBXProject "loginandEnrollSwiftUi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18DDDA6B2D74C87A00B331F2 /* Debug */,
