@@ -5,7 +5,9 @@
 > [!NOTE]
 > : Your application will always require a App Protection Policy when using this method.<br>
 > ref: How to create a APP policy -https://learn.microsoft.com/en-us/mem/intune/developer/app-sdk-ios-phase3#first-policy-application-test
-> 🔖 
+
+> 🔖Recommend reviewing https://developer.apple.com/documentation/uikit/specifying-the-scenes-your-app-supports
+> Required setting in Info.plist for App Protection Policy
 
 <br> :thought_balloon:	More About Apps that don't use ADAL or MSAL
 <br>
